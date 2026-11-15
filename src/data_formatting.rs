@@ -1,6 +1,5 @@
 use serde::{Deserialize, Serialize, de::DeserializeOwned};
 use serde_json::Value;
-use tokio_tungstenite::tungstenite::Utf8Bytes;
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RawPayload {
