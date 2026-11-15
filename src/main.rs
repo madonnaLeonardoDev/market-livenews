@@ -2,6 +2,7 @@ use crate::config::Config;
 use crate::wss::wss_loop;
 mod config;
 mod wss;
+mod data_formatting;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
